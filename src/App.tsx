@@ -2,6 +2,7 @@ import "./App.css";
 import Nav from "./components/layout/nav";
 import Features from "./components/page-components/features";
 import Hero from "./components/page-components/hero";
+import Testimonials from "./components/page-components/testimonials";
 
 function App() {
   return (
@@ -15,13 +16,12 @@ function App() {
         </section>
         {/*Features*/}
 
-        <section id="features" className="">
+        <section id="features">
           <Features />
         </section>
         {/*Testimonials*/}
-        <section id="testimonials" className="h-[500px]">
-          <h2 className="text-2xl font-bold">Testimonials</h2>
-          <p className="mt-4">See what our users have to say.</p>
+        <section id="testimonials">
+          <Testimonials />
         </section>
         {/*How it works*/}
         <section id="how-it-works">
